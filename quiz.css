@@ -9,11 +9,32 @@ body {
 } 
 
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container-fluid {
+    margin-top:50% ;
     height: 100vh;
     width: 100vw;
     color: #E1D9D1;
+}
+
+#question {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.question-header {
+    margin-bottom: 10%;
+}
+
+
+.answer-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 0.1rem solid #E1D9D1;
+}
+
+.answer-prefix {
+    padding: 1.2rem 2rem;
+    
 }
