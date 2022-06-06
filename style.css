@@ -1,3 +1,8 @@
+:root {
+    font-family: 'Signika', sans-serif;
+}
+
+
 body {
     padding: 0;
     margin: 0;
@@ -13,15 +18,89 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
 
 }
 
-h1 {
+.game-heading {
     align-items: center;
     justify-content: center;
     margin: 0 auto; 
-    color: lightgray;
+    color: #E1D9D1;
 } 
+
+.game-heading > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 1.2rem;
+    color: #E1D9D1;
+
+}
+
+.hiddden {
+    display: none;
+}
+/*
+.home-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 20rem;
+    border-radius: 25px;
+    background-color: #E1D9D1;
+
+} 
+.high-scores-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 20rem;
+    background-color: #E1D9D1;
+    border-radius: 25px;
+
+} 
+*/
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 20rem;
+    margin: 0 auto;
+}
+
+.home-link, .scores-link {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.h-button {
+    width: 20rem;
+    background-color: #E1D9D1;
+    border-radius: 25px;
+    margin-bottom: 2rem;
+}
+
+.s-button {
+    width: 20rem;
+    background-color: #E1D9D1;
+    border-radius: 25px;
+}
+
+.home-link:hover ,.scores-link:hover {
+    color: black;
+}
