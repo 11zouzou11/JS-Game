@@ -1,4 +1,27 @@
 body {
     padding: 0;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background: url(/images/fabio-oyXis2kALVg-unsplash.jpg);  /* this image is been taken from unsplash with the url credited witing the readme*/
+} 
+
+
+.container  {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+    color: lightgray;
 } 
