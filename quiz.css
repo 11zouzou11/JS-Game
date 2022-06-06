@@ -46,3 +46,9 @@ body {
     margin: 0 auto;
 
 }
+
+.answer-container:hover {
+    cursor: pointer;
+    transform: translateY(-0.2rem);
+    transition: transform 150ms;
+}
