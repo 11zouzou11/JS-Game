@@ -174,6 +174,9 @@ getNewQestion = () => {
         const number = answer.dataset['number'];
         answer.innerText = currentQuestion['answer' + number];
     });
+
+
+    availableQuestions.splice(questionsIndex, 1);
 }
 
 
