@@ -169,6 +169,11 @@ getNewQestion = () => {
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;
+
+    answer.forEach( answer => {
+        const number = answer.dataset['number'];
+        answer.innerText = currentQuestion['answer' + number];
+    });
 }
 
 
