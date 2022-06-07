@@ -164,13 +164,11 @@ startgame = () => {
 };
 
 getNewQestion = () => {
-
+    // redirect to the end page 
     if (availableQuestions.length === 0 || questionCount >= MAX_USR_QUESTIONS){
 
         return window.location.assign("endquiz.html");
-    }
-
-    ;
+    };
 
     questionCounter++;
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
@@ -197,7 +195,19 @@ answer.forEach(answer => {
         const usrAnswer = e.target;
         const usrRightAnswer = usrAnswer.dataset["number"];
         
-        getNewQestion();
+        let classToApply = 'incorrect';
+            if (usrRightAnswer == currentQuestion.rightAnswer) {
+                classToApply = 'correct';
+            }
+        
+        usrAnswer.parentElement.classList.add(classToApply);
+
+        setTimeout( () => {
+            usrAnswer.parentElement.classList.remove(classToApply);
+            getNewQestion();
+
+        }, 1000) ;
+
     })
 })
 

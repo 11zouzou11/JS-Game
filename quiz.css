@@ -54,3 +54,11 @@ body {
     transform: translateY(-0.2rem);
     transition: transform 150ms;
 }
+
+.answer-container.correct {
+    background-color: green;
+}
+
+.answer-container.incorrect {
+    background-color: red;
+}
