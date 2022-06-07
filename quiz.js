@@ -2,7 +2,7 @@ const question = document.getElementById("question");
 const answer = Array.from(document.getElementsByClassName('answer-text'));
 
 let currentQuestion = {} ;
-let acceptingAnswers = true;
+let acceptingAnswers = false;
 let score = 0;
 let questionCount = 0;
 let availableQuestions = [];
@@ -165,6 +165,13 @@ startgame = () => {
 
 getNewQestion = () => {
 
+    if (availableQuestions.length === 0 || questionCount >= MAX_USR_QUESTIONS){
+
+        return window.location.assign("endquiz.html");
+    }
+
+    ;
+
     questionCounter++;
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
@@ -177,7 +184,21 @@ getNewQestion = () => {
 
 
     availableQuestions.splice(questionsIndex, 1);
+
+    acceptingAnswers = true;
 }
 
+
+answer.forEach(answer => {
+    answer.addEventListener("click", e => {
+        if(!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+        const usrAnswer = e.target;
+        const usrRightAnswer = usrAnswer.dataset["number"];
+        
+        getNewQestion();
+    })
+})
 
 startgame();
