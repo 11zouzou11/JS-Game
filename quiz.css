@@ -62,3 +62,14 @@ body {
 .answer-container.incorrect {
     background-color: red;
 }
+
+
+/* the question counter and the scroe  */
+
+
+.over-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    color: #8394ff;
+}
