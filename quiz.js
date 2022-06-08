@@ -1,11 +1,15 @@
 const question = document.getElementById("question");
 const answer = Array.from(document.getElementsByClassName('answer-text'));
+const questionCounterText = document.getElementById("questioncounter");
+const scoreText = document.getElementById("score");
+
 
 let currentQuestion = {} ;
 let acceptingAnswers = false;
 let score = 0;
 let questionCount = 0;
 let availableQuestions = [];
+
 
 // the questions has been taking from this website : https://topessaywriter.org/technology-quiz-questions-and-answers/
 
@@ -162,7 +166,7 @@ startgame = () => {
     console.log(availableQuestions);
     getNewQestion();
 };
-
+ 
 getNewQestion = () => {
     // redirect to the end page 
     if (availableQuestions.length === 0 || questionCount >= MAX_USR_QUESTIONS){
@@ -171,6 +175,8 @@ getNewQestion = () => {
     };
 
     questionCounter++;
+    questionCounterText.innerText = questionCounter + "/" + MAX_USR_QUESTIONS;
+
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
     question.innerText = currentQuestion.question;

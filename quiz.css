@@ -69,7 +69,20 @@ body {
 
 .over-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 5%;
     color: #8394ff;
+}
+
+.question-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#questioncounter {
+    text-align: center;
+}
+
+#score {
+    text-align: center;
 }
