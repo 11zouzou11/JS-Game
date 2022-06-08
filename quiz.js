@@ -205,6 +205,10 @@ answer.forEach(answer => {
             if (usrRightAnswer == currentQuestion.rightAnswer) {
                 classToApply = 'correct';
             }
+
+            if(classToApply === 'correct') {
+                incrementScore(CORRECT_ANSWER_BONUS);
+            }
         
         usrAnswer.parentElement.classList.add(classToApply);
 
@@ -215,6 +219,12 @@ answer.forEach(answer => {
         }, 1000) ;
 
     })
-})
+});
+
+incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+
+}
 
 startgame();
