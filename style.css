@@ -58,6 +58,10 @@ body {
     width: 20rem;
     margin: 0 auto;
 }
+.btn:hover {
+    background-color: #E1D9D1;
+    color: #000;
+}
 
 .home-link, .scores-link {
     text-decoration: none;
