@@ -10,7 +10,9 @@ body {
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-    background: url(/images/image.jpg);  /* this image is been taken from unsplash with the url credited witing the readme*/
+    background: url(https://images.unsplash.com/photo-1537420327992-d6e192287183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=776&q=80);  /* this image is been taken from unsplash with the url credited witing the readme*/
+    background-repeat: no-repeat;
+    background-size: cover;
 } 
 
 
