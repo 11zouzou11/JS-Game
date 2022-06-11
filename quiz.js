@@ -170,7 +170,7 @@ startgame = () => {
 getNewQestion = () => {
     // redirect to the end page 
     if (availableQuestions.length === 0 || questionCount >= MAX_USR_QUESTIONS){
-
+      localStorage.setItem('recentScore', score);
         return window.location.assign("endquiz.html");
     };
 
