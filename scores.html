@@ -10,31 +10,27 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>JS-Game</title>
+    <link rel="stylesheet" href="scores.css">
+    <title>JS-Game-scores</title>
 </head>
 <body>
 
-
     <div class="container">
-        <div class="game-heading">
-            <h1 class="start-header">JS : Quiz Game</h1>
-            <!--
-            <button class="home-button"><a class="btn btn-lg" href="index.html">Home</a></button>
-            <button class="high-scores-button"><a class="btn btn-lg" href="scores.html">High Scores</a></button>-->
-            <div class="h-button">      
-            <button class="btn btn-lg"><a class="home-link" href="quiz.html">Play</a></button>
-            </div>
-            <div class="s-button">
-            <button class="btn btn-lg"><a class="scores-link" href="scores.html">High Score</a></button>
-            </div>
+        <div id="scores">
+            <h1 id="fScore">High Scores</h1>
+            <div class="list">
+            <ul id="scoresList"></ul>
+        </div>
+            <a href="index.html" class="btn btn-lg s-button">To The Start</a>
         </div>
     </div>
 
 
 
+
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
+    <script src="scores.js"></script>
 </body>
 </html>
 
