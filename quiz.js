@@ -175,7 +175,7 @@ getNewQestion = () => {
     };
 
     questionCounter++;
-    questionCounterText.innerText = questionCounter + "/" + MAX_USR_QUESTIONS;
+    questionCounterText.innerText = questionCounter + "/" + MAX_USR_QUESTIONS; //updateing the question counter
 
     const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionsIndex];
@@ -205,7 +205,7 @@ answer.forEach(answer => {
             if (usrRightAnswer == currentQuestion.rightAnswer) {
                 classToApply = 'correct';
             }
-
+                // updating the scrore 
             if(classToApply === 'correct') {
                 incrementScore(CORRECT_ANSWER_BONUS);
             }
