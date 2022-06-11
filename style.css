@@ -48,31 +48,6 @@ body {
 .hiddden {
     display: none;
 }
-/*
-.home-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    width: 20rem;
-    border-radius: 25px;
-    background-color: #E1D9D1;
-
-} 
-.high-scores-button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    width: 20rem;
-    background-color: #E1D9D1;
-    border-radius: 25px;
-
-} 
-*/
 
 .btn {
     display: flex;

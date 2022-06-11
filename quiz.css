@@ -75,7 +75,7 @@ body {
 
 .over-section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 5%;
     color: #8394ff;
 }
