@@ -303,9 +303,9 @@ The following sites were used on a more regular basis to help implement and buil
 
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
-- [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page"
-- [Google](https://www.google.com/ "Link to Google page)
-- [Youtube](https://www.youtube.com/ "Link to Youtube page)
+- [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page")
+- [Google](https://www.google.com/ "Link to Google page")
+- [Youtube](https://www.youtube.com/ "Link to Youtube page")
 
 
 - Note:
