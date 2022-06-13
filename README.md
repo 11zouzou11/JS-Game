@@ -105,3 +105,18 @@ With these goals in mind, a strategy table was created to determine the trade-of
 
 ![Strategy Table](/images/strategy-table-2.png)
 
+#### Scope
+A scope was defined in order to clearly identify what needed to be done in order to align features with the strategy previously defined. This was broken into two categories:
+- **Content Requirements**
+     - The user will be looking for:
+          - General information
+          - New information
+          - social interaction
+          - fun practice
+- **Functionality Requirements**
+     - The user will be able to:
+          - Easily navigate through the site in order to find the information they want
+          - Be able to interact with the website in order to compete and have fun with other users
+
+
+               
