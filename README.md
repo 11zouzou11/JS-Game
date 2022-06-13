@@ -135,4 +135,52 @@ website:
 ![Website Wireframe](/images/New%20Project%201.png "Website Wireframe")
 
 
-               
+[Back to top ⇧](#JS - Quiz Game)
+
+
+### Design
+
+#### Colour Scheme
+The main colours used throughout the website are a mixture of gray and White, with black accents.
+The chosen colour scheme is a reflection of the current vibe of the game.
+
+#### Typography
+The pairing of the fonts ['Signika'](https://fonts.google.com/specimen/Signika?query=Signika "Link to 'Signika' Google Font")is used throughout the website with Sans Serif as the fallback font in case of import failure. 
+
+#### Imagery
+
+The imagery is catching and visually represents the theme of the website.
+
+[Back to top ⇧](#JS - Quiz Game)
+
+
+## Features
+### Design Features
+Each page of the website features a consistent responsive navigational system:
+
+- each page has a consistant similarity withc the  buttons and the headers 
+
+<dl>
+  <dt><a href="index.html" target="_blank" alt="quiz-game">Home Page</a></dt>
+  <dd>The Home Page is divided into three columns wide on desktops and one column or two on mobile and tablet devices:
+     <ul>
+         <li><strong>Hero Image</strong> - Occupying 100% of the page width and height on all devices, The imagery used was specifically chosen as it created a impactful first impression, setting the tone of the website for the users.
+          </li>
+          <li><strong>Text</strong> - On the top right side and the botoom, while viewing on a desktop. On mobile and tablet devices, the text becomes stacked, on the <strong>Hero Image</strong> and keeps getting smaller  on certain device size.This style was chosen in order to draw the users attention to the information straight away. In this, there is a <strong>highscores</strong> button linking to the highscores page where users can see the last 5 highscores.</li>
+           </ul>
+  </dd>
+  <dt><a href="quiz.html" target="_blank" alt="quiz-game-main-section">quiz Page</a></dt>
+  <dd>The quiz page structurally similar to the other pages with three columns, providing a uniformed and consistent look for aesthetic purposes:
+     <ul> 
+     <li><strong>quiz Grid</strong> - Occupying 100% of the page width while viewing on a desktop. On mobile and tablet devices, the image becomes stacked occupying 100% of the page width as one column.
+          </li>
+            </ul>
+</dd>
+<dt><a href="endquiz.html" target="_blank" alt="endquiz">end Page</a></dt>
+  <dd> on all devices the endquiz page has a <strong> score header</strong> that is fixed and unmoving as the user scrolls through the page.
+  </dd>
+</dl>
+<dt><a href="scores.html" target="_blank" alt="highscores">highscores Page</a></dt>
+  <dd> on all devices the highscores page has a <strong> form</strong> that is fixed and unmoving as the user scrolls through the page to check the last top 5 high scores.
+  </dd>
+</dl>
