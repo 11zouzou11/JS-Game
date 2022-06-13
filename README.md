@@ -197,4 +197,44 @@ Each page of the website features a consistent responsive navigational system:
 [Back to top ⇧](#JS - Quiz Game)
      
 
-     
+## Issues and Bugs 
+The developer ran into a number of issues during the development of the website, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
+
+**Hero Image Issue - all pages** - A bug was detected while styling the hero image where the image wasn't taking the position properly, while searching the web to see if someon else had the same ussue the developer found a solution posted on  [Stack Overflow](https://stackoverflow.com/questions/26236486/background-size-cover-not-working "Link to Stack Overflow solution") that helped to fix the bug.
+
+**Red And Green - quiz Page** - A bug was detected while making the wrong answer colored red and the right one green when answering the quiz, a solution was found on google and youtube [youtube](https://www.youtube.com/results?search_query=class+to+apply+javascript "Link to youtube tutorial solution") that helped to fix the issue.
+
+**GamePlay issue** - The original plan for the game was to use one page and iterate an array depending on the category button that the user clicked. This method created an overlapping issue within the JavaScript script.js file and the page would not function as designed. In order to save the functionality of the game, the developer decided to divide the categories into their own pages (both .html and .js), with each page executing their own functions during game-play.
+
+**Common variables in JavaScript Issue** - The JavaScript was divided into three files, one for each game category (for functionality), and the devellopper faced a bug where the the variables overlapped, creating 3 seperate file helped fixing this issue.
+
+
+[Back to top ⇧](#JS - Quiz Game)
+
+
+## Technologies Used
+
+### Main Languages Used
+1. [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
+2. [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
+3. [JavaScript](https://en.wikipedia.org/wiki/JavaScript "Link to JavaScript Wiki")
+
+### Frameworks, Libraries & Programs Used
+1. [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/ "Link to Bootstrap page")
+     - Bootstrap was used to implement the responsiveness of the site, using bootstrap classes.
+2. [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+    - Google fonts was used to import the fonts "Roboto", "Lato" and "Montserrat" into the style.css file. These fonts were used throughout the project.
+3. [Git](https://git-scm.com/ "Link to Git homepage")
+     - Git was used for version control by utilizing the GitPod terminal to commit to Git and push to GitHub.
+4. [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing
+5. [Balsamiq](https://balsamiq.com/ "Link to balsamiq homepage")
+     - Figma was used to create the wireframes during the design phase of the project.
+6. [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+
+[Back to top ⇧](#JS - Quiz Game)
+
+## Testing
+
+Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
