@@ -63,3 +63,9 @@ This is a 4 pages website.
 4. As a new user, I want to have fun while learning new stuff.
 
 
+#### Current Users Goals:
+1. As a current user , I want to navigate to information about the newest questions.
+2. As a current user, I want to find out where the informations are taking from. 
+3. As a current user, I want to easily navigate to the highscores page to check my current rank.
+
+### Development Planes
