@@ -33,7 +33,7 @@ This is the second of four Milestone Projects that the developer must complete d
 The main requirements were to make a responsive and interactive website using primarily **HTML5**, **CSS3** **JAVASCRIPT**.
 
 
-[Back to top ⇧](#JS - Quiz Game)
+[Back to top ⇧](#JS-Game)
 
 ## How To Use 
 
@@ -135,7 +135,7 @@ website:
 ![Website Wireframe](/images/New%20Project%201.png "Website Wireframe")
 
 
-[Back to top ⇧](#JS - Quiz Game)
+[Back to top ⇧](#JS-Game)
 
 
 ### Design
@@ -194,7 +194,7 @@ Each page of the website features a consistent responsive navigational system:
      - **Reason for not featuring in this release** - challenging levels with more deficult question to the hardcore users.
 
 
-[Back to top ⇧](#JS - Quiz Game)
+[Back to top ⇧](#JS-Game)
      
 
 ## Issues and Bugs 
@@ -209,7 +209,7 @@ The developer ran into a number of issues during the development of the website,
 **Common variables in JavaScript Issue** - The JavaScript was divided into three files, one for each game category (for functionality), and the devellopper faced a bug where the the variables overlapped, creating 3 seperate file helped fixing this issue.
 
 
-[Back to top ⇧](#JS - Quiz Game)
+[Back to top ⇧](#JS-Game)
 
 
 ## Technologies Used
@@ -233,8 +233,83 @@ The developer ran into a number of issues during the development of the website,
 6. [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
      - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
 
-[Back to top ⇧](#JS - Quiz Game)
+[Back to top ⇧](#JS-Game)
 
 ## Testing
 
 Testing information can be found in a separate testing [file](TESTING.md "Link to testing file")
+
+
+## Deployment
+
+This project was developed using [GitPod](https://www.gitpod.io "Link to Visual Studio Code site"), committed to git and pushed to GitHub using the computer terminal.
+
+### Deploying on GitHub Pages
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/11zouzou11/Samar-Beauty "Link to GitHub Repo").
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the "GitHub Pages" section.
+5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
+6. Upon selection, the page will automatically refresh meaning that the website is now deployed.
+7. Scroll back down to the "GitHub Pages" section to retrieve the deployed link.
+8. At the time of submitting this Milestone project the Development Branch and Master Branch are identical.
+
+### Forking the Repository
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/11zouzou11/Samar-Beauty "Link to GitHub Repo").
+3. At the top of the repository, on the right side of the page, select "Fork"
+4. You should now have a copy of the original repository in your GitHub account.
+
+### Creating a Clone
+How to run this project locally:
+1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
+2. After installation, restart the browser.
+3. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/11zouzou11/Samar-Beauty "Link to GitHub Repo").
+5. Click the green "GitPod" button in the top right corner of the repository.
+This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
+
+How to run this project within a local IDE, such as VSCode:
+
+1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
+2. Locate the [GitHub Repository](https://github.com/11zouzou11/Samar-Beauty "Link to GitHub Repo").
+3. Under the repository name, click "Clone or download".
+4. In the Clone with HTTPs section, copy the clone URL for the repository.
+5. In your local IDE open the terminal.
+6. Change the current working directory to the location where you want the cloned directory to be made.
+7. Type 'git clone', and then paste the URL you copied in Step 3.
+```
+git clone https://github.com/USERNAME/REPOSITORY
+```
+8. Press Enter. Your local clone will be created.
+
+Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository "Link to GitHub troubleshooting")
+
+[Back to top ⇧](#JS-Game)
+
+
+## Credits 
+
+### Content
+- The game idea was implemented based on the developers insight
+
+## Code 
+
+The following sites were used on a more regular basis to help implement and build this responsive website : 
+
+- [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
+- [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
+- [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page"
+- [Google](https://www.google.com/ "Link to Google page)
+- [Youtube](https://www.youtube.com/ "Link to Youtube page)
+
+
+- Note:
+1. the video contect were used to get a better understanding of the elements and everything got modified to meet the websites goals. 
+2. all the code that has been borrowed is credited within the  code.
+
+[Back to top ⇧](#JS-Game)
