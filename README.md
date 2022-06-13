@@ -47,3 +47,19 @@ This is a 4 pages website.
 3. The third pasge is a end page, where the user get to see what score they achieved and wheather they want to save it, restart or leave the game.
 4. the fourth page is the highscores page where the user can see the last 5 highest highscores.
 
+## UX
+
+### Ideal User Demographic
+#### The ideal user of this website is:
+- tech enthusiasts
+- kids that wants to get more info about the tech world
+- professionals who want to refresh their memory or get new informations
+
+### User Stories
+#### New/Potential Clients Goals:
+1. As a new user, I want to easily navigate through the website to find the relevant content, effortlessly.
+2. As a new user, I want to learn more about the quiz game and what it has to offer.
+3. As a new user, I want to easily navigate the quiz website and fine the relevent sections easely.
+4. As a new user, I want to have fun while learning new stuff.
+
+
