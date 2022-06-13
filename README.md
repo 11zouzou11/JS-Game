@@ -125,4 +125,14 @@ The information architecture was organized in a **hierarchial tree structure** i
 ![Strategy Table](/images/structure%20js.png)
 
 
+### Skeleton 
+
+Wireframe mockups were created in a [Balsamiq]((https://balsamiq.com/)
+
+
+website: 
+
+![Website Wireframe](/images/New%20Project%201.png "Website Wireframe")
+
+
                
