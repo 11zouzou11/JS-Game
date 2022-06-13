@@ -53,3 +53,27 @@ Manual testing was conducted on the following elements of the [Home Page](index.
 
      ![Home page responsiveness](/images/testing/home-page-responsive.gif)
 
+
+### Quiz Page
+Manual testing was conducted on the following elements of the [Quiz Page](quiz.html):
+
+- The responsiveness of the Quiz page
+
+     ![Home page responsiveness](/images/testing/quiz.gif)
+
+
+### Endquiz Page
+Manual testing was conducted on the following elements of the [Endquiz Page](endquiz.html):
+
+- The responsiveness of the Endquiz page
+
+     ![Home page responsiveness](/images/testing/endquiz.gif)
+
+### Scores Page
+Manual testing was conducted on the following elements of the [Scores Page](scores.html):
+
+- The responsiveness of the scores page
+
+     ![Home page responsiveness](/images/testing/scores.gif)
+
+
