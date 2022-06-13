@@ -20,3 +20,14 @@
      1. [Testing.md](TESTING.md)
 8. [Deployment](#deployment)
 9. [Credits](#credits) 
+
+---
+
+# Project Description
+
+The JS-Quiz Game is a game that made with the user in mind. this game challenge the user's knowledge within the tech field. 
+It's main perpous is to educate and give a wide range of questions that makes receiving the new informations fun ana challenging by competing to achieve a higher score between the users.
+
+This is the second of four Milestone Projects that the developer must complete during their Full Stack Web Development Program at The Code Institute.
+
+The main requirements were to make a responsive and interactive website using primarily **HTML5**, **CSS3** **JAVASCRIPT**.
