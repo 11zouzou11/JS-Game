@@ -184,3 +184,17 @@ Each page of the website features a consistent responsive navigational system:
   <dd> on all devices the highscores page has a <strong> form</strong> that is fixed and unmoving as the user scrolls through the page to check the last top 5 high scores.
   </dd>
 </dl>
+
+
+### Features to Implement in the future
+- **External QUIZ API**
+     - **Feature** - Adding an API to generate new questions each time the user uses the website.
+     - **Reason for not featuring in this release** - more variation and new challenging question.
+     - **Feature** - Adding a 3 level : easy , medium , hard.
+     - **Reason for not featuring in this release** - challenging levels with more deficult question to the hardcore users.
+
+
+[Back to top ⇧](#JS - Quiz Game)
+     
+
+     
