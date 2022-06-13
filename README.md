@@ -31,3 +31,19 @@ It's main perpous is to educate and give a wide range of questions that makes re
 This is the second of four Milestone Projects that the developer must complete during their Full Stack Web Development Program at The Code Institute.
 
 The main requirements were to make a responsive and interactive website using primarily **HTML5**, **CSS3** **JAVASCRIPT**.
+
+
+[Back to top ⇧](#JS - Quiz Game)
+
+## How To Use 
+
+### Structure
+
+This is a 4 pages website.
+1. The first page is the home page and it has 2 sections
+    1. The play section where the user can initialize the game.
+    2. The highscores section where it gives shows the user the 5 top recent highscores.
+2. The second page is a main quiz with the question are proposed with 4 diffrent answers to choose a right one from.
+3. The third pasge is a end page, where the user get to see what score they achieved and wheather they want to save it, restart or leave the game.
+4. the fourth page is the highscores page where the user can see the last 5 highest highscores.
+
