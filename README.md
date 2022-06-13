@@ -69,3 +69,39 @@ This is a 4 pages website.
 3. As a current user, I want to easily navigate to the highscores page to check my current rank.
 
 ### Development Planes
+
+In order to create a comprehensive and informative website, the developer worked closely with other informative websites  to distinguish the required functionality of the site and how it would answer the user needs, as described above.
+
+#### Strategy
+Broken into three categories, the website will focus on the following target audiences:
+
+**Roles:**
+     - Current users of the website
+     - New users
+     - proffesionals within the tech field
+
+**Demographic:**
+     - all ages that can navigate and answer tech related questions
+     - Potential (students, fresh graduates)
+     - Professional tech personal.
+
+ **Psychographics:**
+     - Personality & Attitudes:
+          - technology
+          - Social
+     - Values:
+          - expand the technological knowledge
+     - Lifestyles:
+          - Beauty 
+          - Interested in the "knowledge seeking"
+
+The website needs to enable the **user** to:
+- Retrieve desired information:
+     - New quiz
+     - Upcoming challenges
+     - highscores
+
+With these goals in mind, a strategy table was created to determine the trade-off between importance and viability with the following results:
+
+![Strategy Table](/images/strategy-table-2.png)
+
